@@ -1,0 +1,160 @@
+body {
+    font-size: 24px;
+    font-family: 'Martian Mono', monospace;
+    
+    background-color: #D3D3D3;
+}
+
+
+
+#contaier {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    color: #323232;
+}
+
+
+#title1 {
+    width: 1000px;
+    height: auto;
+
+    float: left;
+}
+
+#velocity {
+    width: 550px;
+    height: auto;
+    float: left;
+
+    font-size: 35px;
+    text-align: center;
+    color: #323232;
+
+    line-height: 90px;
+}
+
+#positions {
+    width: 450px;
+    height: auto;
+    float: left;
+
+    font-size: 40px;
+    text-align: center;
+    color: #323232;
+
+    line-height: 90px;
+}
+
+
+
+
+.button {
+    width: auto;
+    height: auto;
+
+    text-align: center;
+    align-items: center;
+}
+
+
+#controls {
+    width: 1000px;
+    height: auto;
+    float: left;
+
+    align-items: center;
+
+    background-color: #D3D3D3;
+}
+
+#transporter {
+    float: none;
+}
+
+#robot {
+    float: none;
+}
+
+
+
+
+
+
+
+#space1 {
+    width: 1000px;
+    height: 50px;
+    float: left;
+
+    background-color: #D3D3D3;
+}
+
+#space2 {
+    width: 1000px;
+    height: 130px;
+    float: left;
+    background-color: #D3D3D3;
+}
+
+
+
+
+
+#stop {
+    float: none;
+}
+
+#rectangle {
+    float: none;
+}
+
+#triangle {
+    float: none;
+}
+
+#rhombus {
+    float: none;
+}
+
+#hexagon {
+    float: none;
+}
+
+
+#state_box {
+    float: left;
+    height: auto;
+    width: 550px;
+
+    color: firebrick;
+    font-size: 30px;
+
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+#shape_box {
+    float: left;
+
+    height: auto;
+    width: 1000px;
+
+    align-items: center;
+    text-align: center;
+}
+
+#stop_box {
+    float: left;
+
+    width: 350px;
+    height: auto;
+
+    text-align: right;
+    align-items: center;
+}

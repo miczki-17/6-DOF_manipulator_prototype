@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>manipulator website</title>
+
+    <link rel="stylesheet" href="web_style.css" type="text/css" />
+    <link rel="stylesheet" href="preloader.css" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&family=VT323&family=Victor+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="sliders/sliders.css" type="text/css">
+
+
+</head>
+
+    <body>
+
+
+
+        <div id="overlayer"></div>
+        <div class="preloader">
+            <div class="loader">
+                <span class="loader-inner"></span>
+            </div>
+            <p>Ładuję...</p>
+        </div>
+
+
+
+
+        <div id="container">
+
+            <div id="title1">
+                <div id="velocity">
+                    effector velocity:<br> 0.2 m/s
+                </div>
+
+                <div id="positions">
+                    X: <span style="color: firebrick;">NONE</span> <br>
+                    Y: <span style="color: firebrick;">NONE</span> <br>
+                    z: <span style="color: firebrick;">NONE</span>
+                </div>
+
+                <div id="state_box">
+
+                </div>
+
+                <div id="stop_box">
+                    <button id="stop">
+                        <img style="width: 100px; height: 100px;" src="stop/STOP_button.png">
+                    </button>
+                </div>
+            </div>
+
+            <div id="space1"> </div>
+
+
+            <div id="controls">
+                <table style="width: auto; height: auto;">
+                    <tr>
+                        <td style="width: 250px; height: 200px; align-items: center;" class="button" id="triangle">
+                            <button>
+                                <img style="width: 120px; height: 120px" src="triangle/triangle_button.png">
+                            </button>
+                        </td>
+                        <td style="width: 250px; height: 200px; align-items: center;" class="button" id="rectangle">
+                            <button>
+                                <img style="width: 120px; height: 120px" src="square/square_button.png">
+                            </button>
+                        </td>
+                        <td style="width: 250px; height: 200px; align-items: center;" class="button" id="rhombus">
+                            <button>
+                                <img style="width: 120px; height: 120px" src="rhombus/rhombus_button.png">
+                            </button>
+                        </td>
+                        <td style="width: 250px; height: 200px; align-items: center;" class="button" id="hexagon">
+                            <button>
+                                <img style="width: 120px; height: 120px" src="hexagon/hexagon_button.png">
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="space2">
+
+            </div>
+
+            <div id="shape_box">
+
+            </div>
+
+            <h1>Sliders control</h1>
+            <p>Drag the slider to</p>
+
+            <div class="slidecontainer">
+                <input type="range" min="0" max="200" value="0" class="slider" id="Xslider">
+
+                <br>
+                <br>
+                <br>
+
+                <input type="range" min="-150" max="150" value="0" class="slider" id="Yslider">
+
+                <br>
+                <br>
+                <br>
+
+                <input type="range" min="100" max="300" value="250" class="slider" id="Zslider">
+
+                <p>X axis: <span id="Xvalue"></span></p>    <p>Y axis: <span id="Yvalue"></span></p>    <p>Z axis: <span id="Zvalue"></span></p>
+            </div>
+
+        </div>
+
+        <script src="websocket.js"></script>
+
+        <!-- jQuery -->
+        <script src='jquery.js'></script>
+        <script>
+            $(window).load(function () {
+                $(".preloader").delay(3000).fadeOut("slow");
+                $("#overlayer").delay(3000).fadeOut("slow");
+            })
+        </script>
+
+        <script src="sliders/sliders.js"></script>
+
+    </body>
+
+</html>
