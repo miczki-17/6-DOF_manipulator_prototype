@@ -27,7 +27,7 @@ Projekt nie opiera się na gotowych "zabawkowych" bibliotekach do robotyki. Gł�
 
 
 ## Możliwości
-
+Robot może zostac wyposażony dodatkowo w chwytak i może zostać zsynchronizowany z transporterem. Połączenie tych dwóch elementów wraz z robotem powoduje, że manipulator staje się symulacją stacji przemysłowej.
 
 
 ## 📂 Struktura Repozytorium (Ważniejsze pliki)
