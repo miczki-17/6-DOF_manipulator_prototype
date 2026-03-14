@@ -1,7 +1,7 @@
 # 🤖 6-Axis Robotic Arm (Cobot) ze zintegrowanym Web-HMI
 
 <div align="center">
-  <img src="Media/Images/manipulator_demo.gif" width="600" alt="Demonstracja ruchu manipulatora">
+  <img src="Media/manipulator.gif" width="600" alt="Demonstracja ruchu manipulatora">
   <p><i>Zrobotyzowany manipulator 6-osiowy w trakcie wykonywania predefiniowanej trajektorii.</i></p>
 </div>
 
